@@ -8,7 +8,7 @@ const createActiveObj = (toBeActivated: string) => {
 	return data;
 };
 
-const initialState = () => createActiveObj("");
+const initialState = () => createActiveObj("INBOX");
 
 const emailActiveSectionsReducer = (state = initialState(), action: any) => {
 	switch (action.type) {
