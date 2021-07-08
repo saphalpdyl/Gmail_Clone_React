@@ -1,0 +1,9 @@
+.global-divider {
+	height: 0.1rem;
+	margin-top: 1.5rem;
+
+	.global-divider-line {
+		height: 0.1rem;
+		background-color: var(--clr-divider);
+	}
+}

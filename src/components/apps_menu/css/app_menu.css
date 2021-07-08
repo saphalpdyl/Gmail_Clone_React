@@ -1,0 +1,9 @@
+.section-menu-section {
+  border: 1px solid black;
+  position: fixed;
+  height: 100%;
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

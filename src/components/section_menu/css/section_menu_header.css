@@ -1,0 +1,9 @@
+.section-menu-header-container {
+  margin-top: 2rem;
+  text-align: start;
+  width: 100%;
+  padding: 0rem 3rem;
+}
+.section-menu-header-container .section-menu-header {
+  font-weight: var(--font-regular);
+}

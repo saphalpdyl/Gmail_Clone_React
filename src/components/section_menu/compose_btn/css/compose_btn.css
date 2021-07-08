@@ -1,0 +1,30 @@
+.section-menu-compose-btn {
+  position: relative;
+  margin: 20px 0px;
+  width: 29rem;
+  height: 10rem;
+  border-radius: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.25), -2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-menu-compose-btn:hover {
+  box-shadow: -1px -1px 10px 0px rgba(0, 0, 0, 0.25), -2px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.section-menu-compose-btn .section-menu-compose-btn-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.section-menu-compose-btn .section-menu-compose-btn-container .section-menu-compose-btn-text {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: var(--font-regular);
+}
