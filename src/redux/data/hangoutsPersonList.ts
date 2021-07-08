@@ -13,6 +13,12 @@ const personList: hangoutPerson[] = [
 	{
 		name: "Max",
 	},
+	{
+		name: "Parry the Platypus",
+	},
+	{
+		name: "Micheal Jordan",
+	},
 ];
 
 export default personList;

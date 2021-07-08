@@ -1,8 +1,8 @@
 .app-menu-section {
 	border: 1px solid black;
-	position: fixed;
-	height: 102%;
+	position: relative;
+	height: 100vh;
+	right: 0.1rem;
 	width: 9.1rem;
-	right: 0;
 	top: -0.1rem;
 }

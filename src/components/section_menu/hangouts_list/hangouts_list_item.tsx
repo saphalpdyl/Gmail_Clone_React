@@ -16,7 +16,7 @@ const HangoutsListItem: React.FC<HangoutsListItemProps> = (props) => {
 			</div>
 			<div className="section-menu-hangouts-list-item-name-container">
 				<span className="section-menu-hangouts-list-item-name">
-					{props.name}
+					{props.name.split(" ")[0]}
 				</span>
 				<img className="caret" src={caret} />
 			</div>

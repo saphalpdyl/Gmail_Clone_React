@@ -16,3 +16,8 @@ body {
 
 	font-size: 3rem;
 }
+
+.app {
+	display: grid;
+	grid-template-columns: 37rem auto 9.1rem;
+}

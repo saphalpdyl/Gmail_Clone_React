@@ -1,4 +1,4 @@
-import "./css/section_menu.css";
+import "./css/app_menu.css";
 
 export interface SectionMenuProps {}
 
