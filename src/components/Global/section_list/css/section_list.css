@@ -31,3 +31,8 @@
   height: 40px;
   margin-right: 3rem;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -44,7 +44,7 @@ const SectionListItem: React.FC<SectionListItemProps> = (props) => {
 		};
 	}
 
-	return (
+	const jsx = (
 		<div
 			style={styles}
 			onClick={handleClick}
@@ -57,6 +57,14 @@ const SectionListItem: React.FC<SectionListItemProps> = (props) => {
 			/>
 			<span>{props.imgData.title}</span>
 		</div>
+	);
+
+	return props.reducer != "emailSectionListReducer" ? (
+		<a target="_blank" href={props.imgData.href}>
+			{jsx}
+		</a>
+	) : (
+		jsx
 	);
 };
 
