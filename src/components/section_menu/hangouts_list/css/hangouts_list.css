@@ -1,5 +1,6 @@
 .section-menu-hangouts-list {
   height: 100%;
+  margin-top: 2rem;
   width: 100%;
   padding: 1rem 3rem;
   overflow-y: scroll;
