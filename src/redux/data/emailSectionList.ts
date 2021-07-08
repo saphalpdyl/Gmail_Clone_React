@@ -11,25 +11,30 @@ export const sections: sectionItem[] = [
 		title: "Inbox",
 		src: inbox_logo,
 		code: "INBOX",
+		href: "#",
 	},
 	{
 		title: "Starred",
 		src: star_logo,
 		code: "STARRED",
+		href: "#",
 	},
 	{
 		title: "Snoozed",
 		src: snooze_logo,
 		code: "SNOOZED",
+		href: "#",
 	},
 	{
 		title: "Sent",
 		src: sent_logo,
 		code: "SENT",
+		href: "#",
 	},
 	{
 		title: "Drafts",
 		src: draft_logo,
 		code: "DRAFT",
+		href: "#",
 	},
 ];

@@ -1,0 +1,48 @@
+.section-menu-hangouts-list-item {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+
+	align-items: center;
+
+	width: 100%;
+
+	cursor: pointer;
+	user-select: none;
+
+	margin: 1rem 0rem;
+
+	.pp {
+		$length: 50px;
+
+		height: $length;
+		width: $length;
+	}
+
+	.section-menu-hangouts-list-item-name-container {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+
+		align-items: center;
+
+		height: 100%;
+
+		overflow: hidden;
+
+		&:hover .caret {
+			filter: none;
+		}
+
+		.section-menu-hangouts-list-item-name {
+			font-size: 18px;
+			font-weight: var(--font-light);
+			margin-left: 2rem;
+		}
+
+		.caret {
+			height: 8px;
+			margin-left: 0.5rem;
+
+			filter: var(--clr-divider-fill);
+		}
+	}
+}

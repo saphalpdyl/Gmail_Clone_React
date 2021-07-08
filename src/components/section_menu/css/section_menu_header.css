@@ -1,4 +1,5 @@
 .section-menu-header-container {
+  font-size: var(--header-size);
   margin-top: 2rem;
   text-align: start;
   width: 100%;

@@ -13,7 +13,7 @@ export interface SectionListItemProps {
 const SectionListItem: React.FC<SectionListItemProps> = (props) => {
 	const margin = `${props.margin}rem 0rem`;
 
-	let styles: React.CSSProperties = {
+	let styles: any = {
 		margin: margin,
 	};
 
@@ -23,13 +23,17 @@ const SectionListItem: React.FC<SectionListItemProps> = (props) => {
 			state[props.selection ? "emailActiveSectionsReducer" : ""]
 	);
 
+	// Init handleClick
 	let handleClick = () => {};
+
+	//* Styles for the selected item
 	if (props.selection) {
 		if (returnActiveData[props.imgData.code]) {
 			styles = {
 				margin: margin,
 				backgroundColor: "var(--clr-red-transparent)",
 				filter: "var(--clr-red-fill)",
+				fontWeight: "var(--font-semibold)",
 			};
 		}
 

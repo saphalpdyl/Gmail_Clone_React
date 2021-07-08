@@ -14,6 +14,7 @@
           user-select: none;
   position: relative;
   font-size: var(--header-size);
+  font-weight: var(--font-light);
   display: flex;
   align-items: center;
   justify-content: start;

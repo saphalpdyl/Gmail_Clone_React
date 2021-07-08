@@ -5,7 +5,7 @@ const EmailSections: React.FC = () => {
 		<div className="section-menu-email-sections">
 			<SectionList
 				selection={true}
-				margin={1}
+				margin={0.4}
 				reducer="emailSectionListReducer"
 			/>
 		</div>

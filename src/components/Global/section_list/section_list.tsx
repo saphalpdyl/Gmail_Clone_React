@@ -18,12 +18,13 @@ const SectionList: React.FC<SectionListProps> = (props) => {
 
 	return (
 		<div className="section-menu-section-list">
-			{sections.map((section) => (
+			{sections.map((section, index) => (
 				<SectionListItem
 					selection={props.selection}
 					reducer={props.reducer}
 					margin={props.margin}
 					imgData={section}
+					key={index}
 				/>
 			))}
 		</div>

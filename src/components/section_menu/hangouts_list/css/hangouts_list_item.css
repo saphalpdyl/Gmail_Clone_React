@@ -1,0 +1,36 @@
+.section-menu-hangouts-list-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 1rem 0rem;
+}
+.section-menu-hangouts-list-item .pp {
+  height: 50px;
+  width: 50px;
+}
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-name-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-name-container:hover .caret {
+  filter: none;
+}
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-name-container .section-menu-hangouts-list-item-name {
+  font-size: 18px;
+  font-weight: var(--font-light);
+  margin-left: 2rem;
+}
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-name-container .caret {
+  height: 8px;
+  margin-left: 0.5rem;
+  filter: var(--clr-divider-fill);
+}

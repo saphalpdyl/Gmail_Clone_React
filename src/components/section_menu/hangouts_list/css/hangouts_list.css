@@ -1,0 +1,13 @@
+.section-menu-hangouts-list {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 3rem;
+  overflow-y: scroll;
+}
+.section-menu-hangouts-list::-webkit-scrollbar {
+  width: 5px;
+}
+.section-menu-hangouts-list::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: var(--clr-divider);
+}

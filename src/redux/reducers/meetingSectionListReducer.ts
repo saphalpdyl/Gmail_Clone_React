@@ -8,11 +8,13 @@ const sections: sectionItem[] = [
 		title: "New Meeting ",
 		src: camera,
 		code: "CAMERA",
+		href: "https://meet.google.com/",
 	},
 	{
 		title: "Join a Meeting",
 		src: keyboard,
 		code: "KEYBOARD",
+		href: "https://meet.google.com/",
 	},
 ];
 

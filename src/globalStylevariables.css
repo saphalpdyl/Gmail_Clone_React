@@ -4,7 +4,7 @@ html {
 }
 
 :root {
-	--header-size: 2.4rem;
+	--header-size: 2.2rem;
 	--text-size: 1.4rem;
 
 	--clr-red: #ea4335;
@@ -26,4 +26,6 @@ html {
 		brightness(97%) contrast(97%);
 	--clr-green-fill: invert(51%) sepia(88%) saturate(372%) hue-rotate(84deg)
 		brightness(90%) contrast(86%);
+	--clr-divider-fill: invert(79%) sepia(4%) saturate(166%) hue-rotate(314deg)
+		brightness(83%) contrast(89%);
 }
