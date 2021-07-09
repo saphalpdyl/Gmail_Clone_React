@@ -1,10 +1,21 @@
 .section-menu-section {
 	position: relative;
 	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
 	width: 37rem;
 
 	display: flex;
 	flex-direction: column;
 
 	align-items: center;
+
+	&::-webkit-scrollbar {
+		width: 5px;
+		background-color: white;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--clr-outline);
+	}
 }

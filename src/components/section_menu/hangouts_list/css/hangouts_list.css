@@ -1,14 +1,33 @@
 .section-menu-hangouts-list {
-  height: 100%;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  border-top: 1px solid var(--clr-divider);
+  border-bottom: 1px solid var(--clr-divider);
+  min-height: 25rem;
   margin-top: 2rem;
   width: 100%;
   padding: 1rem 3rem;
   overflow-y: scroll;
 }
 .section-menu-hangouts-list::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
+}
+.section-menu-hangouts-list::-webkit-scrollbar::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  width: 50%;
 }
 .section-menu-hangouts-list::-webkit-scrollbar-thumb {
   border-radius: 100px;
   background-color: var(--clr-divider);
+}
+
+.section-menu-hangouts-add-list-item {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 0.5em;
+  width: 85%;
 }

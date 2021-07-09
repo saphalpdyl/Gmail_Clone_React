@@ -44,8 +44,6 @@ const hangoutsListReducer = (state = personList, action: any) => {
 	console.log(action);
 
 	switch (action.type) {
-		// todo : Add ability for custom names
-		// todo : Add unique id generator
 		case "ADD_PERSON":
 			return generateUniqueId(state, action);
 		case "REMOVE_PERSON":

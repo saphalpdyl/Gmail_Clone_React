@@ -1,8 +1,17 @@
 .section-menu-section {
   position: relative;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
   width: 37rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.section-menu-section::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+.section-menu-section::-webkit-scrollbar-thumb {
+  background-color: var(--clr-outline);
 }

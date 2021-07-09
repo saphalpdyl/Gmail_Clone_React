@@ -1,4 +1,6 @@
 .section-menu-hangouts-list-item {
+	scroll-snap-align: start;
+
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;
 
@@ -9,10 +11,12 @@
 	cursor: pointer;
 	user-select: none;
 
-	margin: 1rem 0rem;
+	margin: 0.7em 0rem;
+
+	font-size: 1.8rem;
 
 	.pp {
-		$length: 50px;
+		$length: 1.67em;
 
 		height: $length;
 		width: $length;
@@ -33,14 +37,13 @@
 		}
 
 		.section-menu-hangouts-list-item-name {
-			font-size: 18px;
 			font-weight: var(--font-light);
-			margin-left: 2rem;
+			margin-left: 0.7em;
 		}
 
 		.caret {
-			height: 8px;
-			margin-left: 0.5rem;
+			height: 0.4em;
+			margin-left: 0.4em;
 
 			filter: var(--clr-divider-fill);
 		}
@@ -52,8 +55,10 @@
 			align-items: center;
 			justify-content: center;
 
-			height: 4rem;
-			width: 4rem;
+			$sign_length: 2.2em;
+
+			height: $sign_length;
+			width: $sign_length;
 			aspect-ratio: 1 / 1;
 
 			transition: all 0.25s;

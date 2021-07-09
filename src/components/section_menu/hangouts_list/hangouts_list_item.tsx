@@ -17,8 +17,6 @@ const HangoutsListItem: React.FC<HangoutsListItemProps> = (props) => {
 	const dispatch = useDispatch();
 	const handleClick = () => dispatch(removeHangoutPerson(props.component_key));
 
-	// console.log(props.name, props.component_key);
-
 	return (
 		<div className="section-menu-hangouts-list-item">
 			<div className="section-menu-hangouts-list-item-pp-container">
