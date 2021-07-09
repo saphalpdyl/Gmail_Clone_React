@@ -14,7 +14,11 @@ const HangoutsList: React.FC<HangoutsListProps> = () => {
 	return (
 		<div className="section-menu-hangouts-list">
 			{personList.map((person, index) => (
-				<HangoutsListItem name={person.name} key={index} />
+				<HangoutsListItem
+					name={person.name}
+					key={person.key}
+					component_key={person.key}
+				/>
 			))}
 		</div>
 	);

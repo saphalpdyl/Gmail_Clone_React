@@ -34,3 +34,16 @@
   margin-left: 0.5rem;
   filter: var(--clr-divider-fill);
 }
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-delete-container .section-menu-hangouts-list-item-delete-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  aspect-ratio: 1/1;
+  transition: all 0.25s;
+}
+.section-menu-hangouts-list-item .section-menu-hangouts-list-item-delete-container .section-menu-hangouts-list-item-delete-position:hover {
+  border-radius: 50%;
+  background-color: #dad7d7;
+}

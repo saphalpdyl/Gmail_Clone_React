@@ -4,8 +4,12 @@ export interface rootAction {
 	type: string;
 }
 
-export interface hangoutsPersonAction extends rootAction {
+export interface hangoutsAddPersonAction extends rootAction {
 	data?: hangoutPerson;
+}
+
+export interface hangoutsRemovePersonAction extends rootAction {
+	key: number;
 }
 
 export interface sectionItem {
@@ -17,6 +21,7 @@ export interface sectionItem {
 
 export interface hangoutPerson {
 	name: string;
+	key: number;
 }
 
 declare global {
