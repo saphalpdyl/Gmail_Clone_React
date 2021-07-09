@@ -5,7 +5,7 @@ Gmail Clone made with react-redux typescript. The Clone has a cleaner UI with cl
 ## Sections
 
   - ### `Email Types Section`
-  	>The section contains all the types of email and the buttons for meeting. The sturcture -->
+  	>The section contains all the types of email and the buttons for meeting. The section is divided into 3 major sections. The first is the section of email types such as Inbox , Starred etc. My plan is to to make those buttons such that they filter the type of images later on in the project. Next is the meeting tabs. Both buttons just lead to https://meet.google.com . Following is the hangout contacts with the functionality to either or remove a person from the contacts 
 
     **`Inbox`**
 	**`Starred`**
@@ -15,6 +15,9 @@ Gmail Clone made with react-redux typescript. The Clone has a cleaner UI with cl
 	### Meetings
 	**`New Meeting`**
 	**`Join a Meeting`**
+	### Hangouts
+	**`List of Hangouts Conatacts`**
+	**`Add a Person`**
 
   - ### `Body` 
     > Incomplete
