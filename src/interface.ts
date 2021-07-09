@@ -4,8 +4,12 @@ export interface rootAction {
 	type: string;
 }
 
+export interface addHangoutPerson {
+	name: string;
+}
+
 export interface hangoutsAddPersonAction extends rootAction {
-	data?: hangoutPerson;
+	data?: addHangoutPerson;
 }
 
 export interface hangoutsRemovePersonAction extends rootAction {
