@@ -41,8 +41,6 @@ const removePerson = (state: hangoutPerson[], key: number) => {
 };
 
 const hangoutsListReducer = (state = personList, action: any) => {
-	console.log(action);
-
 	switch (action.type) {
 		case "ADD_PERSON":
 			return generateUniqueId(state, action);

@@ -13,10 +13,15 @@ const HangoutsList: React.FC<HangoutsListProps> = () => {
 		(state: RootStateOrAny) => state.hangoutsListReducer
 	);
 
+	// * For name Input
 	const [addPersonInput, setAddPersonInput] = useState("");
+	// * For button disabling
+	const [disabled, setDisabled]: [boolean, Function] = useState(true);
 
 	//Handle input change
 	const handleInputChange = (e: any) => {
+		if (e.target.value == "") setDisabled(true);
+		else setDisabled(false);
 		setAddPersonInput(e.target.value);
 	};
 
@@ -44,7 +49,9 @@ const HangoutsList: React.FC<HangoutsListProps> = () => {
 			<form onSubmit={handleSubmit}>
 				<div className="section-menu-hangouts-add-list-item">
 					<input onChange={handleInputChange} value={addPersonInput} />
-					<button type="submit">Add</button>
+					<button disabled={disabled} type="submit">
+						Add
+					</button>
 				</div>
 			</form>
 		</React.Fragment>
