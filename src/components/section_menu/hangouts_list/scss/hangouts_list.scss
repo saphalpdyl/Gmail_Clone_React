@@ -1,11 +1,6 @@
 .section-menu-hangouts-list {
 	scroll-snap-type: y mandatory;
 
-	$border_prop: 1px solid var(--clr-divider);
-
-	border-top: $border_prop;
-	border-bottom: $border_prop;
-
 	min-height: 25rem;
 
 	margin-top: 2rem;

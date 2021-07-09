@@ -1,8 +1,6 @@
 .section-menu-hangouts-list {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
-  border-top: 1px solid var(--clr-divider);
-  border-bottom: 1px solid var(--clr-divider);
   min-height: 25rem;
   margin-top: 2rem;
   width: 100%;
