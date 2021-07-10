@@ -1,0 +1,26 @@
+.app-menu-icon-position {
+  margin-top: 4rem;
+}
+.app-menu-icon-position .app-menu-icon-container {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  padding: 1rem;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s;
+}
+.app-menu-icon-position .app-menu-icon-container:hover {
+  border-radius: 50%;
+  background-color: rgba(218, 215, 215, 0.5);
+}
+.app-menu-icon-position .app-menu-icon-container img {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+}

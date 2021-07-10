@@ -1,8 +1,15 @@
 .app-menu-section {
-  border: 1px solid black;
   position: relative;
   height: 100vh;
   right: 0.1rem;
   width: 9.1rem;
-  top: -0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .app-menu-section {
+    display: none;
+  }
 }
