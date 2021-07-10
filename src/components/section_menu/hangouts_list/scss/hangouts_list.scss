@@ -28,11 +28,44 @@
 	}
 }
 
-.section-menu-hangouts-add-list-item {
+form {
 	display: flex;
 	justify-content: center;
-	gap: 3em;
 
-	padding: 0.5em;
-	width: 85%;
+	width: 100%;
+	height: 30%;
+
+	.section-menu-hangouts-add-list-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		gap: 3rem;
+
+		width: 100%;
+		height: 100%;
+
+		margin: 0;
+		width: 85%;
+
+		.section-menu-hangouts-add-list-item-input {
+			border: none;
+			border: 2px solid black;
+			height: 2.5rem;
+		}
+
+		.section-menu-hangouts-add-list-item-btn {
+			background-color: #7848dd;
+			color: white;
+			height: 2.5rem;
+			width: 60px;
+
+			border: 0;
+
+			&:disabled {
+				background-color: var(--clr-outline);
+				color: #b7a9a9;
+			}
+		}
+	}
 }

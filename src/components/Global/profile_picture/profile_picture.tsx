@@ -1,3 +1,4 @@
+import React from "react";
 import "./css/profile_picture.css";
 
 export interface ProfilePictureProps {

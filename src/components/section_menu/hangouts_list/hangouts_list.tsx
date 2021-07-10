@@ -48,8 +48,17 @@ const HangoutsList: React.FC<HangoutsListProps> = () => {
 			</div>
 			<form onSubmit={handleSubmit}>
 				<div className="section-menu-hangouts-add-list-item">
-					<input onChange={handleInputChange} value={addPersonInput} />
-					<button disabled={disabled} type="submit">
+					<input
+						required
+						className="section-menu-hangouts-add-list-item-input"
+						onChange={handleInputChange}
+						value={addPersonInput}
+					/>
+					<button
+						className="section-menu-hangouts-add-list-item-btn"
+						disabled={disabled}
+						type="submit"
+					>
 						Add
 					</button>
 				</div>
