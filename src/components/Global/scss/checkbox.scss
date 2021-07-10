@@ -1,0 +1,11 @@
+.global-checkbox {
+	font-size: 4rem;
+
+	border: 2px solid #212121;
+	border-radius: 4px;
+
+	.global-checkbox-checkmark {
+		aspect-ratio: 1 / 1;
+		color: white;
+	}
+}

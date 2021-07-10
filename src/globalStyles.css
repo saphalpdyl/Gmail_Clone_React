@@ -15,9 +15,17 @@ body {
 	width: 100%;
 
 	font-size: 3rem;
+
+	overflow: hidden;
 }
 
 .app {
 	display: grid;
 	grid-template-columns: 37rem auto 9.1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.app {
+		grid-template-columns: 37rem auto;
+	}
 }

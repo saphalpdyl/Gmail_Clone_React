@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 import ProfilePicture from "../../Global/profile_picture/profile_picture";
 
-import caret from "../../../SVGs/Vector.svg";
+import caret from "../../../SVGs/caret.svg";
 import remove_person_icon from "../../../SVGs/Remove Person.svg";
 
 import "./css/hangouts_list_item.css";
