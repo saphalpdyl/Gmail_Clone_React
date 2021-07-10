@@ -7,22 +7,17 @@ Gmail Clone made with react-redux typescript. The Clone has a cleaner UI with cl
   - ### `Email Types Section`
   	>The section contains all the types of email and the buttons for meeting. The section is divided into 3 major sections. The first is the section of email types such as Inbox , Starred etc. My plan is to to make those buttons such that they filter the type of images later on in the project. Next is the meeting tabs. Both buttons just lead to https://meet.google.com . Following is the hangout contacts with the functionality to either or remove a person from the contacts 
 
-    **`Inbox`**
-	**`Starred`**
-	**`Snoozed`**
-	**`Sent`**
-	**`Drafts`**
-	### Meetings
-	**`New Meeting`**
-	**`Join a Meeting`**
-	### Hangouts
-	**`List of Hangouts Conatacts`**
-	**`Add a Person`**
+    #### Email types : **`Inbox`** **`Starred`** **`Snoozed`** **`Sent`** **`Drafts`**
+	#### Meetings : **`New Meeting`** **`Join a Meeting`**
+	#### Hangouts : **`List of Hangouts Contacts`** **`Add a Person`**
 
   - ### `Body` 
     > Incomplete
+    
   - ### `Extra Apps section`
-    >Incomplete
+    > This section of the clone represents the four different apps in the menu on the right hand side of the page. It primarily has google calender , keep , tasks and google Contacts. It also has a add button. **Google Task** and **Add google apps** doesn't work.
+
+	#### Apps : **`Google Calender`** **`Google Keeps`** **`Google Tasks`** **`Google Contacts`**
   
   <br/><br/>
   
