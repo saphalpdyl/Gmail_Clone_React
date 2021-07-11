@@ -1,0 +1,9 @@
+.global-checkbox {
+  font-size: 4rem;
+  border: 2px solid #212121;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  transition: all 0.167s;
+}

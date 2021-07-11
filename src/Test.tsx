@@ -1,14 +1,19 @@
+import React from "react";
+
 import "./test.css";
 import "./globalStylevariables.css";
 
-import CheckBox from "./components/Global/checkbox";
+import RootCheckbox from "./components/Global/checkbox/rootCheckbox";
+import CheckBox from "./components/Global/checkbox/checkbox";
 
 export interface TestProps {}
 
 const Test: React.FC<TestProps> = () => {
 	return (
 		<div className="test">
-			<CheckBox root={true} initialState={true} />
+			<RootCheckbox />
+
+			<CheckBox isAlreadyChecked={true} />
 		</div>
 	);
 };

@@ -1,0 +1,16 @@
+{
+	"emails": [
+		{
+			"topic": "Something Important Here",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta aliquet est, a varius diam cursus lobortis. Fusce sed augue.",
+			"timestamp": "6 : 47 AM",
+			"starred": false
+		},
+		{
+			"topic": "Another Topic Here",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta aliquet est, a varius diam cursus lobortis. Fusce sed augue.",
+			"timestamp": "2: 47 PM",
+			"starred": true
+		}
+	]
+}
