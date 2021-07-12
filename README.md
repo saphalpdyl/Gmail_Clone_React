@@ -2,6 +2,10 @@
 
 Gmail Clone made with react-redux typescript. The Clone has a cleaner UI with cleaner fonts .
 
+### `Visit the website currently being worked on :` [Gmail Clone with React](https://Cheyatz.github.io/Gmail_Clone_React)
+#### Or copy the following link
+	https://Cheyatz.github.io/Gmail_Clone_React
+
 ## Sections
 
   - ### `Email Types Section`
