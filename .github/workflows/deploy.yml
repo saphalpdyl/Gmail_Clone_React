@@ -5,20 +5,20 @@ on:
     branches:
       - "master"
 
-jobs :
-  build :
-    runs-on : ubuntu-latest
-    strategy :
-      matrix :
-        node-version : [15.x]
-    
-    steps :
-      -name : Checkout
-        uses : actions/checkout@v1
-      
-      -name : Install and build
-        run : npm install && npm run build
-      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install and build
+        run: npm install && npm run build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
