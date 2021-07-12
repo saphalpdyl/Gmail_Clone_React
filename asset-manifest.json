@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Gmail_Clone_React/static/css/main.4a149c86.chunk.css",
+    "main.js": "/Gmail_Clone_React/static/js/main.c97dff08.chunk.js",
+    "main.js.map": "/Gmail_Clone_React/static/js/main.c97dff08.chunk.js.map",
+    "runtime-main.js": "/Gmail_Clone_React/static/js/runtime-main.3e0d93f1.js",
+    "runtime-main.js.map": "/Gmail_Clone_React/static/js/runtime-main.3e0d93f1.js.map",
+    "static/js/2.2ab50d45.chunk.js": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js",
+    "static/js/2.2ab50d45.chunk.js.map": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js.map",
+    "index.html": "/Gmail_Clone_React/index.html",
+    "static/css/main.4a149c86.chunk.css.map": "/Gmail_Clone_React/static/css/main.4a149c86.chunk.css.map",
+    "static/js/2.2ab50d45.chunk.js.LICENSE.txt": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js.LICENSE.txt",
+    "static/media/+.71f21949.svg": "/Gmail_Clone_React/static/media/+.71f21949.svg",
+    "static/media/Calendr_icon.f1177427.svg": "/Gmail_Clone_React/static/media/Calendr_icon.f1177427.svg",
+    "static/media/Compose_Add_Btn.3dc8bc8f.svg": "/Gmail_Clone_React/static/media/Compose_Add_Btn.3dc8bc8f.svg",
+    "static/media/Contacts.89694bf6.svg": "/Gmail_Clone_React/static/media/Contacts.89694bf6.svg",
+    "static/media/Google_Tasks_icon.10d867d1.svg": "/Gmail_Clone_React/static/media/Google_Tasks_icon.10d867d1.svg",
+    "static/media/Google_keep_icon.27bfcfa0.svg": "/Gmail_Clone_React/static/media/Google_keep_icon.27bfcfa0.svg",
+    "static/media/Remove Person.2ee30882.svg": "/Gmail_Clone_React/static/media/Remove Person.2ee30882.svg",
+    "static/media/caret.df8a01ea.svg": "/Gmail_Clone_React/static/media/caret.df8a01ea.svg",
+    "static/media/drafts_black_24dp.4669aec4.svg": "/Gmail_Clone_React/static/media/drafts_black_24dp.4669aec4.svg",
+    "static/media/inbox_black_24dp.0731f5d2.svg": "/Gmail_Clone_React/static/media/inbox_black_24dp.0731f5d2.svg",
+    "static/media/keyboard_black_24dp.6750ff82.svg": "/Gmail_Clone_React/static/media/keyboard_black_24dp.6750ff82.svg",
+    "static/media/send_black_24dp.0fe097c9.svg": "/Gmail_Clone_React/static/media/send_black_24dp.0fe097c9.svg",
+    "static/media/star_black_24dp.ecf2636e.svg": "/Gmail_Clone_React/static/media/star_black_24dp.ecf2636e.svg",
+    "static/media/videocam_black_24dp.753a7ff0.svg": "/Gmail_Clone_React/static/media/videocam_black_24dp.753a7ff0.svg",
+    "static/media/watch_later_black_24dp.efe720bf.svg": "/Gmail_Clone_React/static/media/watch_later_black_24dp.efe720bf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e0d93f1.js",
+    "static/js/2.2ab50d45.chunk.js",
+    "static/css/main.4a149c86.chunk.css",
+    "static/js/main.c97dff08.chunk.js"
+  ]
+}
