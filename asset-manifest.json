@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Gmail_Clone_React/static/css/main.b2876165.chunk.css",
-    "main.js": "/Gmail_Clone_React/static/js/main.25701333.chunk.js",
-    "main.js.map": "/Gmail_Clone_React/static/js/main.25701333.chunk.js.map",
+    "main.css": "/Gmail_Clone_React/static/css/main.b8e8f425.chunk.css",
+    "main.js": "/Gmail_Clone_React/static/js/main.2886399b.chunk.js",
+    "main.js.map": "/Gmail_Clone_React/static/js/main.2886399b.chunk.js.map",
     "runtime-main.js": "/Gmail_Clone_React/static/js/runtime-main.3e0d93f1.js",
     "runtime-main.js.map": "/Gmail_Clone_React/static/js/runtime-main.3e0d93f1.js.map",
-    "static/js/2.2ab50d45.chunk.js": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js",
-    "static/js/2.2ab50d45.chunk.js.map": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js.map",
+    "static/js/2.7f9f90dc.chunk.js": "/Gmail_Clone_React/static/js/2.7f9f90dc.chunk.js",
+    "static/js/2.7f9f90dc.chunk.js.map": "/Gmail_Clone_React/static/js/2.7f9f90dc.chunk.js.map",
     "index.html": "/Gmail_Clone_React/index.html",
-    "static/css/main.b2876165.chunk.css.map": "/Gmail_Clone_React/static/css/main.b2876165.chunk.css.map",
-    "static/js/2.2ab50d45.chunk.js.LICENSE.txt": "/Gmail_Clone_React/static/js/2.2ab50d45.chunk.js.LICENSE.txt",
+    "static/css/main.b8e8f425.chunk.css.map": "/Gmail_Clone_React/static/css/main.b8e8f425.chunk.css.map",
+    "static/js/2.7f9f90dc.chunk.js.LICENSE.txt": "/Gmail_Clone_React/static/js/2.7f9f90dc.chunk.js.LICENSE.txt",
     "static/media/+.2aa58027.svg": "/Gmail_Clone_React/static/media/+.2aa58027.svg",
     "static/media/Calendr_icon.7abb75da.svg": "/Gmail_Clone_React/static/media/Calendr_icon.7abb75da.svg",
     "static/media/Compose_Add_Btn.6e26fd89.svg": "/Gmail_Clone_React/static/media/Compose_Add_Btn.6e26fd89.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3e0d93f1.js",
-    "static/js/2.2ab50d45.chunk.js",
-    "static/css/main.b2876165.chunk.css",
-    "static/js/main.25701333.chunk.js"
+    "static/js/2.7f9f90dc.chunk.js",
+    "static/css/main.b8e8f425.chunk.css",
+    "static/js/main.2886399b.chunk.js"
   ]
 }
