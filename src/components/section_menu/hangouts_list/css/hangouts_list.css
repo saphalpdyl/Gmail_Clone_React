@@ -27,6 +27,8 @@ form {
   justify-content: center;
   width: 100%;
   height: 30%;
+  max-height: 50px;
+  min-height: 50px;
 }
 form .section-menu-hangouts-add-list-item {
   display: flex;
@@ -42,6 +44,15 @@ form .section-menu-hangouts-add-list-item .section-menu-hangouts-add-list-item-i
   border: none;
   border: 2px solid black;
   height: 2.5rem;
+}
+form .section-menu-hangouts-add-list-item .section-menu-hangouts-add-list-item-input::-moz-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+form .section-menu-hangouts-add-list-item .section-menu-hangouts-add-list-item-input:-ms-input-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+form .section-menu-hangouts-add-list-item .section-menu-hangouts-add-list-item-input::placeholder {
+  font-family: "Work Sans", sans-serif;
 }
 form .section-menu-hangouts-add-list-item .section-menu-hangouts-add-list-item-btn {
   background-color: #7848dd;

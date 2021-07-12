@@ -12,7 +12,6 @@ const Test: React.FC<TestProps> = () => {
 	return (
 		<div className="test">
 			<RootCheckbox />
-
 			<CheckBox isAlreadyChecked={true} />
 		</div>
 	);

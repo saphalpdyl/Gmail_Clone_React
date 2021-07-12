@@ -4,7 +4,7 @@
 	margin: 20px 0px;
 
 	width: 29rem;
-	height: 30rem;
+	min-height: 7rem;
 
 	border-radius: 4.5rem;
 	display: flex;
@@ -35,6 +35,11 @@
 			text-align: center;
 
 			font-weight: var(--font-regular);
+		}
+
+		.section-menu-compose-btn-svg {
+			display: flex;
+			align-items: center;
 		}
 	}
 }

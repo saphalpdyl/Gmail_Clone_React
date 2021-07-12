@@ -11,6 +11,7 @@ import "./css/hangouts_list_item.css";
 export interface HangoutsListItemProps {
 	name: string;
 	component_key: number;
+	profileColor: string;
 }
 
 const HangoutsListItem: React.FC<HangoutsListItemProps> = (props) => {
@@ -20,7 +21,7 @@ const HangoutsListItem: React.FC<HangoutsListItemProps> = (props) => {
 	return (
 		<div className="section-menu-hangouts-list-item">
 			<div className="section-menu-hangouts-list-item-pp-container">
-				<ProfilePicture profileName={props.name} />
+				<ProfilePicture color={props.profileColor} profileName={props.name} />
 			</div>
 			<div className="section-menu-hangouts-list-item-name-container">
 				<span className="section-menu-hangouts-list-item-name">

@@ -2,7 +2,7 @@
   position: relative;
   margin: 20px 0px;
   width: 29rem;
-  height: 30rem;
+  min-height: 7rem;
   border-radius: 4.5rem;
   display: flex;
   justify-content: center;
@@ -27,4 +27,8 @@
   font-size: 3rem;
   text-align: center;
   font-weight: var(--font-regular);
+}
+.section-menu-compose-btn .section-menu-compose-btn-container .section-menu-compose-btn-svg {
+  display: flex;
+  align-items: center;
 }
