@@ -18,7 +18,7 @@ jobs:
 
       - name: Build
         run: CI='' npm run build # The build command of your project
-    
+
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
@@ -38,4 +38,4 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run deploy # The build command of your project
+        run: CI='' npm run deploy # The build command of your project
