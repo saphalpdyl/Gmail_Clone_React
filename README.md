@@ -38,3 +38,7 @@ npx create-react-app gmail-clone --template typescript
 ```
 npm install redux react-redux
 ```
+
+```
+npm run deploy
+```
