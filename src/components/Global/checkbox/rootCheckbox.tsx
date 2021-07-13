@@ -15,7 +15,10 @@ const RootCheckbox: React.FC<RootCheckboxProps> = (props) => {
 			});
 		} else {
 			document.querySelectorAll(".global-checkbox").forEach((ele: any) => {
-				if (ele.style["background-color"] != "rgb(255, 255, 255)") ele.click();
+				console.log(ele.style["background-color"]);
+				if (ele.style["background-color"] != "") {
+					ele.click();
+				}
 			});
 		}
 

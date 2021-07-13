@@ -1,0 +1,66 @@
+.global-button {
+  --afterHoverLength: 4rem;
+  position: relative;
+  height: var(--afterHoverLength);
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.global-button .global-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  transition: all 0.125s;
+  border-radius: 50%;
+}
+.global-button .global-button-position {
+  aspect-ratio: 1/1;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.global-button .global-button-position img {
+  height: 2rem;
+  width: 2rem;
+  filter: var(--clr-outline-fill);
+}
+.global-button .global-button-tooltip {
+  font-size: 1.7rem;
+  position: absolute;
+  width: 9rem;
+  height: 2.8rem;
+  background-color: #212121;
+  bottom: -3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.25s;
+}
+.global-button .global-button-tooltip .arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid #212121;
+  position: absolute;
+  top: -0.2rem;
+}
+.global-button:hover .global-button-container {
+  height: var(--afterHoverLength);
+  width: var(--afterHoverLength);
+  background-color: var(--clr-grey-transparent);
+}
+.global-button:hover .global-button-tooltip {
+  opacity: 0.9;
+  transition: all 0.25s;
+  transition-delay: 0.25s;
+}

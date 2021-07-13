@@ -10,7 +10,7 @@ const CheckBoxSkeleton: React.FC<CheckBoxSkeletonProps> = (props) => {
 	let styles: React.CSSProperties = {};
 
 	if (props.isChecked)
-		styles = { border: "1rem solid #212121", backgroundColor: "#212121" };
+		styles = { border: ".5rem solid #212121", backgroundColor: "#212121" };
 	else styles = {};
 
 	return (

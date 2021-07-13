@@ -1,8 +1,25 @@
 .body-top-controls {
-  background-color: gray;
-  padding: 2rem 4rem;
+  border: 1px solid;
   height: 6rem;
   font-size: 2rem;
+  padding: 0rem 4rem;
   display: flex;
   align-items: center;
+}
+.body-top-controls .body-top-controls-first-checkbox {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.body-top-controls .body-top-controls-first {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.body-top-controls .body-top-controls-second {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }

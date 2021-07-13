@@ -1,12 +1,10 @@
 import { useState } from "react";
 import CheckBoxSkeleton from "./checkboxSkeleton";
 
-export interface CheckBoxProps {
-	isAlreadyChecked: boolean;
-}
+export interface CheckBoxProps {}
 
 const CheckBox: React.FC<CheckBoxProps> = (props) => {
-	const [checked, setChecked] = useState(props.isAlreadyChecked);
+	const [checked, setChecked] = useState(false);
 
 	const handleClick = () => {
 		setChecked(!checked);

@@ -1,4 +1,5 @@
 import TopControls from "./top_controls/top_controls";
+import CheckBox from "../Global/checkbox/checkbox";
 
 import "./css/body.css";
 

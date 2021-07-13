@@ -14,6 +14,7 @@ html {
 
 	--clr-red-transparent: #ea443527;
 	--clr-divider: #a8a4a4;
+	--clr-grey-transparent: #a8a4a46e;
 	--clr-outline: #545252;
 
 	--font-light: 300;
@@ -28,4 +29,6 @@ html {
 		brightness(90%) contrast(86%);
 	--clr-divider-fill: invert(79%) sepia(4%) saturate(166%) hue-rotate(314deg)
 		brightness(83%) contrast(89%);
+	--clr-outline-fill: invert(18%) sepia(1%) saturate(2637%) hue-rotate(314deg)
+		brightness(97%) contrast(54%);
 }
